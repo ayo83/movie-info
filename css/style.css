@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(rgb(248, 246, 246), rgb(231, 229, 229));
+}
+
+.navbar-brand{
+    font-family: 'Akronim';
+    color: red;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.land{
+    height: 100vh;
+}
+
+.land img{
+    height: 60vh;
+    width: 60rem;
+}
+
+.search{
+    background: none;
+    width: 500px;
+}
+
+.search h2{
+    font-family: 'Bitter';
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: rgb(134, 0, 0);
+}
+
+.search p{
+    font-family: Roboto;
+    color: black;
+    font-size: 15px;
+}
+
+.form-control{
+    height: 50px;
+    border: 2px groove grey;
+    background-color: rgb(248, 246, 246);
+}
+
+#movies img, #movie img{
+    width: 100%;
+}
+
+#movies{
+    margin-top: -11rem;
+}
+
+#movies .col-md-3 .well{
+    height:500px;
+}
+
+#movies .col-md-3 img{
+    height:350px;
+}
+
+#movies .well h5{
+    color: black;
+    font-family: 'Roboto';
+}
+
+#movies .btn{
+    background-color: black;
+}
+
+.well-m{
+    background-color: rgb(24, 21, 21);
+    padding: 3rem;
+    border-radius: 10px;
+    
+    margin-bottom: 3rem;
+}
+
+
+
+/* For small Screen */
+@media only screen and (max-width: 768px){
+    .land img{
+        height: 400px;
+        width: 380px;
+        margin-left: 1.5rem;
+        margin-top: -4rem;
+    }
+
+    .search{
+        background: none;
+        width: 350px;
+        margin-top: -8rem;
+        text-align: center;
+        margin-left: 1rem;
+    }
+
+    .land{
+        height: 150vh;
+    }
+
+    .navbar-brand{
+        text-align: center;
+        margin-left: 4rem;
+    }
+}

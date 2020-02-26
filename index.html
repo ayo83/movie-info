@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Akronim|Bitter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Movie Info</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">Movie Info</a>
+            </div>
+        </div>
+    </nav>
+    <div class="land row mt-3">
+        <div class="col-md-7">
+            <img src="./img/undraw_netflix_q00o.svg" alt="">
+        </div>
+        <div class="col-md-5">
+            <div class="jumbotron search">
+                <h2 class="text-center">Search for Any Movie</h2>
+                <form id="searchForm">
+                    <input type="text" class="form-control" id="searchText" placeholder="Search Movie">
+                </form>
+                <p class="text-center mt-4">Filter genres, subgenres, moods, themes, star rating, release date to dig
+                    through movies in our database to find what you are looking for. Search boxes within categories help
+                    narrow down the characteristic you are looking for. For example, typing "comedy" into the Genres &
+                    Subgenres will bring up Standup Comedy, Romantic Comedy, Screwball Comedy, etc.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" id="movies">
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
